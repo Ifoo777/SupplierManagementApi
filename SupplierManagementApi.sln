@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupplierManagementApi", "SupplierManagementApi\SupplierManagementApi.csproj", "{FE74256B-6D60-468C-A73F-530A2446D843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{F58328D0-B7FE-4CE0-BA38-E6F9CE1566CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BA178D22-E463-403C-8AC5-F21214B16F35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{DCE3BA52-0031-470F-9480-3BF917083F64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{329D7B92-C448-4D4C-B059-9E1038943650}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupplierManagementApi.Core", "SupplierManagementApi.Core\SupplierManagementApi.Core.csproj", "{9681C67B-0DC2-49BA-B101-7B53A595FC02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupplierManagementApi.Database", "SupplierManagementApi.Database\SupplierManagementApi.Database.csproj", "{C18B6A5A-E533-4FEF-B0E7-A7E706B0AEB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupplierManagementApi.Data", "SupplierManagementApi.Data\SupplierManagementApi.Data.csproj", "{CF0C4BC3-CDF4-4632-8D69-1F2F22CA8A91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupplierManagementApi.Models", "SupplierManagementApi.Models\SupplierManagementApi.Models.csproj", "{82C9D89A-9928-4524-91B9-4DC009629003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupplierManagementApi.Enums", "SupplierManagementApi.Enums\SupplierManagementApi.Enums.csproj", "{894F0B7C-05DD-48EE-A299-B02EDCEBFBA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE74256B-6D60-468C-A73F-530A2446D843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE74256B-6D60-468C-A73F-530A2446D843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE74256B-6D60-468C-A73F-530A2446D843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE74256B-6D60-468C-A73F-530A2446D843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9681C67B-0DC2-49BA-B101-7B53A595FC02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9681C67B-0DC2-49BA-B101-7B53A595FC02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9681C67B-0DC2-49BA-B101-7B53A595FC02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9681C67B-0DC2-49BA-B101-7B53A595FC02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18B6A5A-E533-4FEF-B0E7-A7E706B0AEB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18B6A5A-E533-4FEF-B0E7-A7E706B0AEB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18B6A5A-E533-4FEF-B0E7-A7E706B0AEB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18B6A5A-E533-4FEF-B0E7-A7E706B0AEB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0C4BC3-CDF4-4632-8D69-1F2F22CA8A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0C4BC3-CDF4-4632-8D69-1F2F22CA8A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0C4BC3-CDF4-4632-8D69-1F2F22CA8A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0C4BC3-CDF4-4632-8D69-1F2F22CA8A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82C9D89A-9928-4524-91B9-4DC009629003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C9D89A-9928-4524-91B9-4DC009629003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C9D89A-9928-4524-91B9-4DC009629003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C9D89A-9928-4524-91B9-4DC009629003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{894F0B7C-05DD-48EE-A299-B02EDCEBFBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894F0B7C-05DD-48EE-A299-B02EDCEBFBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894F0B7C-05DD-48EE-A299-B02EDCEBFBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894F0B7C-05DD-48EE-A299-B02EDCEBFBA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DCE3BA52-0031-470F-9480-3BF917083F64} = {BA178D22-E463-403C-8AC5-F21214B16F35}
+		{329D7B92-C448-4D4C-B059-9E1038943650} = {BA178D22-E463-403C-8AC5-F21214B16F35}
+		{9681C67B-0DC2-49BA-B101-7B53A595FC02} = {BA178D22-E463-403C-8AC5-F21214B16F35}
+		{C18B6A5A-E533-4FEF-B0E7-A7E706B0AEB4} = {329D7B92-C448-4D4C-B059-9E1038943650}
+		{CF0C4BC3-CDF4-4632-8D69-1F2F22CA8A91} = {DCE3BA52-0031-470F-9480-3BF917083F64}
+		{82C9D89A-9928-4524-91B9-4DC009629003} = {F58328D0-B7FE-4CE0-BA38-E6F9CE1566CE}
+		{894F0B7C-05DD-48EE-A299-B02EDCEBFBA0} = {F58328D0-B7FE-4CE0-BA38-E6F9CE1566CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1D00C8D-E101-4FF2-9775-CAD37A1930E9}
+	EndGlobalSection
+EndGlobal
